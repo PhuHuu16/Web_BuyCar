@@ -1,0 +1,92 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    font-size: 16px;
+}
+.primary{
+    background-color: #4285F4;
+    color: #fff;
+}
+.danger{
+    background-color: #E32934;
+    color: #fff;
+}
+.danger:hover{
+    background-color: #c10310;
+}
+.btn{
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 15px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    color:black;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+thead{
+    text-transform: uppercase;
+    color: black;
+}
+th, td, tr{
+    padding: 10px;
+    vertical-align: middle;
+    border: 2px solid black;
+    border-collapse:collapse ;
+}
+.btn_back {
+    background-color: white;
+    color: black;
+}
+.btn_back{
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 15px;
+}
+.btn_back:hover{
+    color: white;
+    background-color: #4285F4;  
+}
+#u1{
+    border-width:0px;
+    height:41px;
+}
+#u1.text{
+    position:absolute;
+    align-self:center;
+    padding:2px 2px 2px 2px;
+    box-sizing:border-box;
+    width:100%;
+}
+#u1_text{
+    border-width:0px;
+    word-wrap:break-word;
+    text-transform:none;
+    text-align: center;
+}
